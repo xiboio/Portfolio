@@ -1,0 +1,130 @@
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Poppins", serif;
+    background: linear-gradient(45deg, var(--gradient-bg-color-1), var(--gradient-bg-color-2), var(--gradient-bg-color-1), var(--gradient-bg-color-2));
+    background-size: 400% 400%;
+    animation: gradient 9s ease infinite;
+}
+
+:root {
+    --main-color: white;
+    --sec-color: #986dff;
+    --background-color: #0b0b0b;
+    --gradient-bg-color-1: #0C0C0C;
+    --gradient-bg-color-2: rgb(20, 6, 20);
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes appear {
+    from { 
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animate-appear {
+    animation: appear 1s ease;
+}
+
+.top{
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-bottom: 2px solid #986dff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid {
+    display: flex;
+    grid-column: initial;
+}
+
+.mid-l{
+    display: flex;
+    background-color: #0C0C0C;
+    color: white;
+    border: 1px solid #986dff;
+    text-align: center;
+    max-width: 1000px;
+    margin: 15px;
+    opacity: 60%;
+}
+
+.mid-l:hover{
+    opacity: 100%;
+}
+
+.imag{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 100%;
+    
+}
+
+.desc{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.qm{
+    color: #986dff;
+    display: flex;
+    justify-content: baseline;
+}
+
+.nm, .bed{
+    display: flex;
+    justify-content: baseline;
+}
+
+.mid-r{
+    display: flex;
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: 15px;
+}
+
+.ad{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    user-select: none;
+    height: 20px;
+}
+
+.ad:hover{
+    transform: scale(1.1, 1.1);
+    transition: transform .25s;
+}
