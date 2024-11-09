@@ -76,11 +76,6 @@ body {
     text-align: center;
     max-width: 1000px;
     margin: 15px;
-    opacity: 60%;
-}
-
-.mid-l:hover{
-    opacity: 100%;
 }
 
 .imag{
