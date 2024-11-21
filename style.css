@@ -194,6 +194,8 @@ body {
 }
 
 .proj{
+    display: flex;
+    grid-column: auto;
     margin: 20px;
 }
 
@@ -211,7 +213,7 @@ body {
     margin: 10px;
 }
 
-.desc_ur{
+.desc_proj{
     margin: 10px;
 }
 
@@ -244,3 +246,56 @@ body {
     transform: scaleX(1);
     transform-origin: bottom left
 }
+
+.proj_port{
+    width: 200px;
+    border: 2px solid rgb(37, 37, 170);;
+    margin-left: 20px;
+    
+}
+
+.a_proj{
+    margin-top: 68px;
+}
+
+.proj_port a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.po{
+    color: rgb(37, 37, 170);
+    margin: 10px;
+}
+
+.proj_port a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.proj_port {
+    position: relative;
+}
+
+.proj_port a::after {
+    content: "";
+    position: absolute;
+    width: 86%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 18px;
+    margin-inline-start: 9px;
+    left: 0;
+    background: linear-gradient(270deg, rgb(37, 37, 170) 0%, #17161d 100%);
+    transform-origin: bottom right;
+    transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+    
+}
+
+.proj_port a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left
+}
+
