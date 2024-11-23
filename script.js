@@ -6,3 +6,4 @@ document.addEventListener("DOMContentLoaded"), () => {
 setTimeout(() => {
     loadingScreen.style.display = "none";
 }, 3000);
+
