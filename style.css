@@ -235,15 +235,22 @@ body {
 }
 
 .proj_urna {
-    max-width: 200px;
-    max-height: 225px;
-    border: 2px solid rgb(146, 36, 36);;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    width: 200px; /* Defina um tamanho fixo ou responsivo */
+    margin: 20px;
+    max-height: 220px;
+    text-align: center;
+    border: 2px solid rgb(146, 36, 36);
 }
 
 .ur{
     color: red;
     margin: 10px;
 }
+
 
 .desc_proj_ur{
     margin: 10px;
@@ -257,46 +264,24 @@ body {
     text-decoration: none;
     color: white;
     margin: 10px;
-}
-
-/* line gradient */
-
-.proj_urna {
-    position: relative;
-}
-
-.proj_urna a::after {
-    content: "";
-    position: absolute;
-    width: 79%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 18px;
-    margin-inline-start: 9px;
-    left: 0;
-    background: linear-gradient(270deg, #ff0000 0%, #17161d 100%);
-    transform-origin: bottom right;
-    transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
-    
-}
-
-.proj_urna a:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
 }
 
 /* portfolio project */
 
 .proj_port{
-    max-width: 200px;
-    max-height: 225px;
+    max-height: 220px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
     border: 2px solid rgb(37, 37, 170);;
     margin-left: 20px;
-    
-}
-
-.a_proj{
-    margin-top: 68px;
 }
 
 .arr{
@@ -307,7 +292,11 @@ body {
     text-decoration: none;
     color: white;
     margin: 10px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
 }
+
 
 .po{
     color: rgb(37, 37, 170);
@@ -318,31 +307,9 @@ body {
     text-decoration: none;
     color: white;
     margin: 10px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
 }
 
-/* line gradient */
-
-.proj_port {
-    position: relative;
-}
-
-.proj_port a::after {
-    content: "";
-    position: absolute;
-    width: 79%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 18px;
-    margin-inline-start: 9px;
-    left: 0;
-    background: linear-gradient(270deg, rgb(37, 37, 170) 0%, #17161d 100%);
-    transform-origin: bottom right;
-    transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
-    
-}
-
-.proj_port a:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left
-}
 

@@ -38,7 +38,7 @@ const translations = {
         ".skill-level-bg": "Beginner",
         ".skill-level-it": "Intermediate",
         ".np": "Project",
-        ".ur": "Eletro Vot Mach",
+        ".ur": "Ele Vot Mach",
         ".desc_proj_ur": "E.V.M made at the technical high school - ETEC",
         ".po": "Portfolio",
         ".desc_proj_port": "Portfolio made for personal use",
