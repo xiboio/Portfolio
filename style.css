@@ -69,11 +69,6 @@ body {
 
 /* Responsividade para telas pequenas */
 @media (max-width: 768px) {
-    
-    body{
-        max-height: 50%;
-    }
-
     .top {
         flex-direction: column;
         align-items: center;
@@ -135,11 +130,6 @@ body {
 
 /* Responsividade para telas menores que 500px (Celulares em modo retrato) */
 @media (max-width: 500px) {
-
-    body{
-        max-height: 50%;
-    }
-
     .top {
         padding: 10px;
     }
