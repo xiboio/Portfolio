@@ -18,7 +18,7 @@ const translations = {
     pt: {
         ".jesus-saves": "Jesus Salva",
         ".qm": "Quem Sou",
-        ".desc": "Sou estudante de uma escola técnica(ETEC), onde faço o Ensino Médio junto com o curso técnico em Desenvolvimento de Sistemas. Com um interesse crescente na programação e no desenvolvimento de software, escolhi focar meus estudos na linguagem C#, pela sua versatilidade e uso em diversas áreas, como desenvolvimento web e aplicações empresariais. Meu objetivo é aprimorar habilidades e conhecimentos práticos que me permitam criar soluções eficientes e inovadoras, preparando-me para desafios profissionais e acadêmicos.",
+        ".desc": "Sou estudante de uma escola técnica(ETEC), onde faço o Ensino Médio junto com o curso técnico em Desenvolvimento de Sistemas. Com um interesse crescente na programação e no desenvolvimento de software. Meu objetivo é aprimorar habilidades e conhecimentos práticos que me permitam criar soluções eficientes e inovadoras, preparando-me para desafios profissionais e acadêmicos..",
         ".ha": "Habilidades",
         ".skill-level-bg": "Iniciante",
         ".skill-level-it": "Intermediário",
@@ -33,7 +33,7 @@ const translations = {
     en: {
         ".jesus-saves": "Jesus Saves",
         ".qm": "About Me",
-        ".desc": "I am a student at a technical school (ETEC), where I attend high school along with the technical course in Systems Development. With a growing interest in programming and software development, I chose to focus my studies on the C# language, due to its versatility and use in different areas, such as web development and business applications. My goal is to improve practical skills and knowledge that allow me to create efficient and innovative solutions, preparing me for professional and academic challenges.",
+        ".desc": "I am a student of a Technical School (Etec), where I do high school along with the technical course in systems development. With a growing interest in software programming and development. My goal is to improve practical skills and knowledge that allow me to create efficient and innovative solutions, preparingme for professional and academic challenges." ,
         ".ha": "Skills",
         ".skill-level-bg": "Beginner",
         ".skill-level-it": "Intermediate",
