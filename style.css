@@ -76,7 +76,7 @@ body {
     padding: 10px;
 }
 
-.mid {
+.mid-r {
     flex-direction: column;
     align-items: center;
 }
@@ -85,7 +85,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center; /* Centraliza os itens */
-     gap: 10px; /* Espaçamento entre os elementos */
+    gap: 10px; /* Espaçamento entre os elementos */
 }
 
 .ad {
@@ -121,11 +121,6 @@ body {
         padding: 10px;
     }
 
-    .mid {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .skill {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -157,7 +152,7 @@ body {
     }
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
     .btn-lang {
         width: 30px;
         height: 25px;
@@ -178,7 +173,9 @@ body {
         gap: 10px; /* Espaçamento entre os elementos */
 }
 
-    
+    .ha, .nmproj {
+        text-align: center;
+    }   
 
     .proj_urna, .proj_port {
         width: 100%;
@@ -235,7 +232,7 @@ html {
 
 /* description */
 
-.mid-l{
+.mid-t{
     display: flex;
     background-color: #0C0C0C;
     color: white;
@@ -300,10 +297,17 @@ html {
 /* skill */
 
 
+.mid-t {
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .skill{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 10px;
 }
 
 .ha{
