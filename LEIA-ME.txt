@@ -16,3 +16,5 @@ copie o endereço visível.
 
 Este é o site pronto. Para editar ou gerar uma nova versão, use o pacote de
 código-fonte separado e siga o README.md.
+
+Experiência atual: estágio de TI na Romi, com automações e sistemas em Python, Node.js, React e SQL. Informação fornecida pelo titular do portfólio.
